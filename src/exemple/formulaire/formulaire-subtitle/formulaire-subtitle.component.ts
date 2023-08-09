@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-formulaire-subtitle',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulaire-subtitle.component.scss'],
 })
 export class FormulaireSubtitleComponent implements OnInit {
+  public formControl = new FormControl<string>(undefined);
   constructor() {}
 
   ngOnInit() {}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-formulaire-infos-primary',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulaire-infos-primary.component.scss'],
 })
 export class FormulaireInfosPrimaryComponent implements OnInit {
+  public formControl = new FormControl<string>(undefined);
   constructor() {}
 
   ngOnInit() {}
