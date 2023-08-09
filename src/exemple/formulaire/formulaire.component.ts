@@ -20,7 +20,7 @@ export class FormulaireComponent implements OnInit {
 
   ngOnInit() {}
 
-  public Save() {
+  public save() {
     this.saveData.emit(this.newHeaderInfos);
   }
 }

@@ -19,4 +19,9 @@ export class ExempleComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  public save(newInfo: IHeaderInfo) {
+    console.log(newInfo);
+    this.headerInfo = newInfo;
+  }
 }
