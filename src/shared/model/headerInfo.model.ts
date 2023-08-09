@@ -4,5 +4,5 @@ export interface IHeaderInfo {
   description: {
     infoPrimaire: string;
     infoSecondaire: string;
-  }[];
+  };
 }
